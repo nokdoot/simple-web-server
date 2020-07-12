@@ -2,6 +2,11 @@
 
 =pod
 
+=head1 Install
+
+mkdir lib
+cpanm -L lib Mojolicious::Lite
+
 =head1 Run
 
 perl server.pl daemon -m production -l http://*:3000
